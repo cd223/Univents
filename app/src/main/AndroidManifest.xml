@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uk.co.univents.univents">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".Home" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".uploadTimetable" />
+        <activity android:name=".FriendInvites" />
+        <activity android:name=".Invites" />
+        <activity android:name=".EventInvites" />
+        <activity android:name=".GroupInvites" />
+        <activity
+            android:name=".FriendList"
+            android:label="@string/title_activity_friend_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FriendInvite"
+            android:label="@string/title_activity_friend_invite"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".EventCreation" />
+    </application>
+
+</manifest>

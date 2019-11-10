@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <Button
+        android:text="@string/friendInvButton"
+        android:onClick="viewFriendInvites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="50px"
+        android:paddingLeft="50px"
+        android:paddingTop="50px"
+        android:paddingBottom="50px"
+        android:id="@+id/friendInvitesButton" />
+
+
+    <Button
+        android:text="@string/groupInvButton"
+        android:onClick="viewGroupInvites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="50px"
+        android:paddingLeft="50px"
+        android:paddingTop="50px"
+        android:paddingBottom="50px"
+        android:id="@+id/groupInvitesButton" />
+
+    <Button
+        android:text="@string/eventInvButton"
+        android:onClick="viewEventInvites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="50px"
+        android:paddingLeft="50px"
+        android:paddingTop="50px"
+        android:paddingBottom="50px"
+        android:id="@+id/eventInvitesButton" />
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="400px"
+        android:layout_height="100px"
+        android:onClick="gotToTimetableUpload"
+        android:text="@string/uploadTimetableGoBrowser"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:background="@color/common_google_signin_btn_text_dark_default">
+
+    </Button>
+
+    <Button
+    android:layout_width="400px"
+    android:layout_height="100px"
+    android:onClick="goToHome"
+    android:text="@string/uploadTimetableGoHome"
+    android:layout_marginTop="10dp"
+    android:textAllCaps="false"
+    android:background="@color/common_google_signin_btn_text_dark_default">
+
+</Button>
+</LinearLayout>

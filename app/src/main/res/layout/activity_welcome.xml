@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="181dp"
+        android:layout_height="209dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="24sp"
+        android:layout_marginBottom="20dp" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToLogin"
+        android:text="@string/loginButton"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:background="@color/common_google_signin_btn_text_dark_default">
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToSignup"
+        android:text="@string/singnupButton"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:background="@color/common_google_signin_btn_text_dark_default">
+    </Button>
+
+
+</LinearLayout>

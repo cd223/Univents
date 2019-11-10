@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Univents</string>
+    <string name="welcome">Welcome to Univents!</string>
+    <string name="loginButton">SignIn</string>
+    <string name="loginPasswordHint">Password</string>
+    <string name="loginEmailHint">Email</string>
+    <string name="pleaseLogin">Login to Univents!</string>
+    <string name="singnupButton">SignUp</string>
+    <string name="pleaseSignup">SignUp to Univents</string>
+    <string name="signUpButton">SignUp</string>
+    <string name="signUpNameHint">Name and Surname</string>
+    <string name="signUpUsername">Username</string>
+    <string name="homeWelcome">Welcome to Univents Home</string>
+    <string name="homeYouSignedInAs">You are signed in as</string>
+    <string name="homeSignOut">SignOut</string>
+    
+    <string name="uploadTimetableGoHome">    Proceed To Home     </string>
+    <string name="uploadTimetableGoBrowser">Click to Upload Timetable</string>
+    <string name="bathAddress">\@bath.ac.uk</string>
+    <string name="friendInvButton">Friend Invitations</string>
+    <string name="groupInvButton">Group Invitations</string>
+    <string name="eventInvButton">Event Invitations</string>
+    <string name="goToInvites">View Invitations</string>
+    <string name="invitesHeader">Your Invites</string>
+    <string name="friendInviteHeader">Friend Invitations</string>
+    <string name="eventInviteAccept">Accept</string>
+    <string name="eventInviteReject">Reject</string>
+    <string name="eventInvitesText">Event Invitations</string>
+    <string name="goToCreateEvent">New Event</string>
+    <string name="groupInvitesList">Group Invitations</string>    <string name="title_activity_friend_list">FriendList</string>
+    <string name="title_activity_friend_invite">FriendInvite</string>
+    <string name="gotoAddFriend">Friends</string>
+    <string name="EventCreationTitle">Title</string>
+    <string name="homeCreateEvent">Create Event</string>
+    <string name="EventCreationNotes">Notes</string>
+    <string name="EventCreationButton">Create</string>
+    <string name="EventCreationDateTime">Choose Time</string>
+    <string name="EventCreationStartDate">Start Date (yyyy-mm-dd)</string>
+    <string name="EventCreationEndDate">End Date (yyyy-mm-dd)</string>
+    <string name="EventCreationLocation">Location</string>
+    <string name="EventCreationStartTime">Start Time (hh:mm)</string>
+    <string name="EventCreationEndTime">End Time (hh:mm)</string>
+    <string name="EventCreationInvitees">Invitees (usernames)</string>
+    <string name="EventCreationMaxNum">Max Number of Invitees</string>
+    <string name="date_selected" />
+    <string name="EventCreationButtonSetStartDate">Choose start date</string>
+</resources>

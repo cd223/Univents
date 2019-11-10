@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="181dp"
+        android:layout_height="209dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pleaseSignup"
+        android:textSize="24sp"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/loginEmailHint"
+        android:text="@string/bathAddress"
+        android:ems="10"
+        android:id="@+id/signUpEmail"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/loginPasswordHint"
+        android:ems="10"
+        android:id="@+id/signUpPassword"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="signUpUser"
+        android:text="@string/signUpButton"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:background="@color/common_google_signin_btn_text_dark_default">
+
+    </Button>
+
+
+</LinearLayout>

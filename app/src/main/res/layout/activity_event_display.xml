@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_event_creation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="uk.co.univents.univents.EventCreation"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="117dp"
+        android:layout_height="115dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/imageView2"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="24sp"
+        android:id="@+id/eventDisplayTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="24sp"
+        android:id="@+id/eventDisplayLocation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Date"
+        android:textSize="24sp"
+        android:id="@+id/eventDisplayStartDate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Time"
+        android:textSize="24sp"
+        android:id="@+id/eventDisplayStartTime" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Date"
+        android:textSize="24sp"
+        android:id="@+id/eventDisplayEndDate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Time"
+        android:textSize="24sp"
+        android:id="@+id/eventDisplayEndTime" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:textSize="24sp"
+        android:id="@+id/eventDisplayNotes" />
+
+    <CheckBox
+        android:text="Private"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/visibility"
+        android:checked="true" />
+
+
+</LinearLayout>
